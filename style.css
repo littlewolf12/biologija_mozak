@@ -1,0 +1,62 @@
+
+body {
+    background-color:pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+h1, h2 {
+    background-image: url("СЛИКЕ/lilac.jpg");
+    color:rgb(75, 4, 71);
+    text-decoration: underline rgb(75, 4, 71);
+    text-shadow: 2px 2px 2px palevioletred;
+}
+
+.paragraf {
+    text-align: justify;
+}
+
+
+#autor {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    background-color: rebeccapurple;
+    color: rgb(248, 159, 189);
+    line-height: 3;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.centar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li{
+    display:flex;
+    float:left;
+    height: 45px;
+}
+
+nav ul li a{
+    background-color: deeppink;
+    color:rgb(64, 6, 88);
+    border:1px solid rgb(64, 6, 88);
+    padding:12px 20px;
+    text-decoration-line: none;
+}
+
+nav a:hover{
+    background-color: palevioletred;
+}
